@@ -56,14 +56,14 @@ if len(sys.argv) != 4:
 	print("Please run the script as follows")
 	print('''
 				Usage:
-				python ctrl_perf.py <smf_pkt_capture> <bgp_pkt_capture> <UE_range_prefix>
+				python3 ctrl_perf.py <smf_pkt_capture> <bgp_pkt_capture> <UE_range_prefix>
 
 				example:
-				python ctrl_perf.py ctrl.pcap bgp.pcap 172.16.4.0/24
+				python3 ctrl_perf.py ctrl.pcap bgp.pcap 172.16.4.0/24
 
 
 				example:
-				python ctrl_perf.py ctrl.pcap bgp.pcap 172.16.4.2
+				python3 ctrl_perf.py ctrl.pcap bgp.pcap 172.16.4.2
 
 			''')
 else:
